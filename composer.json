@@ -1,0 +1,31 @@
+{
+    "name": "redweb-tn/redhost",
+    "description": "RedHost : The Rapid Development Framework for PHP - Official Repository http://www.redweb.tn",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sabri El Gueder",
+            "email": "contact@sabri-elgueder.tn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "doctrine/annotations": "^1.3@dev",
+        "doctrine/dbal": "^2.6@dev",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "redhost\\": "sx-app/"
+        }
+    },
+    "config": {
+        "vendor-dir": "sx-app/vendor",
+        "cache-dir": "tmp/cache"
+    }
+}
